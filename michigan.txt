@@ -10,6 +10,7 @@ track 6591-YY-ATACseq-mor-RNAi
 compositeTrack on
 shortLabel 6591-YY-mor
 longLabel 6591-YY experiment, mor-RNAi part
+autoscale group
 type bigWig
 allButtonPair on
 
@@ -31,10 +32,68 @@ allButtonPair on
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S2.bw
 
+
+	track 6591-YY-S3
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R1_RNAi_CT14_GFP-
+	longLabel Repeat 1 morRNAi CT14 GFP-
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S3.bw
+
+	track 6591-YY-S4
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R1_RNAi_CT14_GFP+
+	longLabel Repeat 1 morRNAi CT14 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S4.bw
+
+	track 6591-YY-S5
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R2_RNAi_CT2_GFP-
+	longLabel Repeat 2 morRNAi CT2 GFP-
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S5.bw
+
+	track 6591-YY-S6
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R2_RNAi_CT2_GFP+
+	longLabel Repeat 2 morRNAi CT2 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S6.bw
+
+	track 6591-YY-S7
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R2_RNAi_CT14_GFP-
+	longLabel Repeat 2 morRNAi CT14 GFP-
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S7.bw
+
+	track 6591-YY-S8
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R2_RNAi_CT14_GFP+
+	longLabel Repeat 2 morRNAi CT14 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S8.bw
+
+
+
 track 6591-YY-ATACseq-WT
 compositeTrack on
 shortLabel 6591-YY-WT
 longLabel 6591-YY experiment, wildtype part
+autoscale group
 type bigWig
 allButtonPair on
 
@@ -46,3 +105,31 @@ allButtonPair on
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S9.bw
+
+
+	track 6591-YY-S10
+	parent 6591-YY-ATACseq-WT
+	shortLabel R1_WT_CT14_GFP+
+	longLabel Repeat 1 WT CT14 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S10.bw
+
+	track 6591-YY-S11
+	parent 6591-YY-ATACseq-WT
+	shortLabel R2_WT_CT2_GFP+
+	longLabel Repeat 2 WT CT2 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S11.bw
+
+	track 6591-YY-S12
+	parent 6591-YY-ATACseq-WT
+	shortLabel R2_WT_CT14_GFP+
+	longLabel Repeat 2 WT CT14 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S12.bw
