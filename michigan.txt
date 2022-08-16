@@ -1,0 +1,14 @@
+hub theCircadianHub
+shortLabel theCircadianHub
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track 6591-YY-S1
+shortLabel R1_morRNAi_CT2_GFP-
+longLabel bigWig: 6591-YY Repeat 1 morRNAi CT2 GFP- cells
+visibility full
+type bigWig
+bigDataUrl https://usegalaxy.org/display_application/f9cad7b01a472135de8166c8955522b1/ucsc_bigwig/main/81bbfeb3734704d3/param/track
