@@ -11,4 +11,4 @@ shortLabel R1_morRNAi_CT2_GFP-
 longLabel bigWig: 6591-YY Repeat 1 morRNAi CT2 GFP- cells
 visibility full
 type bigWig
-bigDataUrl https://usegalaxy.org/display_application/f9cad7b01a472135de8166c8955522b1/ucsc_bigwig/main/81bbfeb3734704d3/param/track
+bigDataUrl https://usegalaxy.org/display_application/f9cad7b01a472135de8166c8955522b1/ucsc_bigwig/main/81bbfeb3734704d3/data/galaxy_f9cad7b01a472135de8166c8955522b1.bigwig
