@@ -9,6 +9,7 @@ genome dm6
 track 6591-YY-ATACseq-mor-RNAi
 compositeTrack on
 shortLabel 6591-YY-mor
+longLabel 6591-YY experiment, mor-RNAi part
 type bigWig
 allButtonPair on
 
@@ -33,6 +34,7 @@ allButtonPair on
 track 6591-YY-ATACseq-WT
 compositeTrack on
 shortLabel 6591-YY-WT
+longLabel 6591-YY experiment, wildtype part
 type bigWig
 allButtonPair on
 
