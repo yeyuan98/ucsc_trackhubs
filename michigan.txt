@@ -1,14 +1,46 @@
-hub theCircadianHub
-shortLabel theCircadianHub
-longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan
+hub Swathi Yadlapalli Lab
+shortLabel Swathi Yadlapalli Lab
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan. Maintained by Ye Yuan
 useOneFile on
 email yeyu@umich.edu
 
 genome dm6
 
-track 6591-YY-S1
-shortLabel R1_morRNAi_CT2_GFP-
-longLabel bigWig: 6591-YY Repeat 1 morRNAi CT2 GFP- cells
-visibility full
+track 6591-YY-ATACseq-mor-RNAi
+compositeTrack on
+shortLabel 6591-YY-mor
 type bigWig
-bigDataUrl https://usegalaxy.org/display_application/f9cad7b01a472135de8166c8955522b1/ucsc_bigwig/main/81bbfeb3734704d3/data/galaxy_f9cad7b01a472135de8166c8955522b1.bigwig
+allButtonPair on
+
+	track 6591-YY-S1
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R1_RNAi_CT2_GFP-
+	longLabel Repeat 1 morRNAi CT2 GFP-
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S1.bw
+
+	track 6591-YY-S2
+	parent 6591-YY-ATACseq-mor-RNAi
+	shortLabel R1_RNAi_CT2_GFP+
+	longLabel Repeat 1 morRNAi CT2 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S2.bw
+
+track 6591-YY-ATACseq-WT
+compositeTrack on
+shortLabel 6591-YY-WT
+type bigWig
+allButtonPair on
+
+	track 6591-YY-S9
+	parent 6591-YY-ATACseq-WT
+	shortLabel R1_WT_CT2_GFP+
+	longLabel Repeat 1 WT CT2 GFP+
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/S9.bw
