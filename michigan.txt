@@ -23,15 +23,6 @@ allButtonPair on
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT10_REP1_S1/shifted_treat_pileup.bw
 	
-	track 6795-YY-S1-bed
-	parent 6795-YY-ATACseq-WT-Oct2022
-	shortLabel R1_WT_CT10
-	longLabel R1_WT_CT10
-	autoscale group
-	visibility full
-	type narrowPeak
-	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT10_REP1_S1/shifted_peaks.narrowPeak
-	
 	track 6795-YY-S5-bw
 	parent 6795-YY-ATACseq-WT-Oct2022
 	shortLabel R2_WT_CT10
@@ -40,15 +31,6 @@ allButtonPair on
 	visibility full
 	type bigWig
 	bigDataUrl https://usegalaxy.org/display_application/f9cad7b01a472135e72ca707a32acadd/ucsc_bigwig/main/fcd074fb410b5121/data/galaxy_f9cad7b01a472135e72ca707a32acadd.bigwig
-	
-	track 6795-YY-S5-bed
-	parent 6795-YY-ATACseq-WT-Oct2022
-	shortLabel R2_WT_CT10
-	longLabel R2_WT_CT10
-	autoscale group
-	visibility full
-	type narrowPeak
-	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT10_REP2_S5/shifted_peaks.narrowPeak
 	
 	track 6795-YY-S2-bw
 	parent 6795-YY-ATACseq-WT-Oct2022
@@ -59,15 +41,6 @@ allButtonPair on
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT22_REP1_S2/shifted_treat_pileup.bw
 	
-	track 6795-YY-S2-bed
-	parent 6795-YY-ATACseq-WT-Oct2022
-	shortLabel R1_WT_CT22
-	longLabel R1_WT_CT2
-	autoscale group
-	visibility full
-	type narrowPeak
-	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT2_REP1_S2/shifted_peaks.narrowPeak
-	
 	track 6795-YY-S6-bw
 	parent 6795-YY-ATACseq-WT-Oct2022
 	shortLabel R2_WT_CT22
@@ -76,15 +49,6 @@ allButtonPair on
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT22_REP2_S6/shifted_treat_pileup.bw
-	
-	track 6795-YY-S6-bed
-	parent 6795-YY-ATACseq-WT-Oct2022
-	shortLabel R2_WT_CT22
-	longLabel R2_WT_CT22
-	autoscale group
-	visibility full
-	type narrowPeak
-	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT22_REP2_S6/shifted_peaks.narrowPeak
 
 track 6591-YY-ATACseq-mor-RNAi
 compositeTrack on
