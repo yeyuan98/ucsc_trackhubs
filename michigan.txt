@@ -39,7 +39,7 @@ allButtonPair on
 	autoscale group
 	visibility full
 	type bigWig
-	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6795_YY_Oct_2022/WT_CT10_REP2_S5/shifted_treat_pileup.bw
+	bigDataUrl https://usegalaxy.org/display_application/f9cad7b01a472135e72ca707a32acadd/ucsc_bigwig/main/fcd074fb410b5121/data/galaxy_f9cad7b01a472135e72ca707a32acadd.bigwig
 	
 	track 6795-YY-S5-bed
 	parent 6795-YY-ATACseq-WT-Oct2022
