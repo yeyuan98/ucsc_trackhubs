@@ -6,6 +6,122 @@ email yeyu@umich.edu
 
 genome dm6
 
+track 7338-YY-ATACseq-WT-Dec2022
+compositeTrack on
+shortLabel 7338-YY-WT-Dec2022
+longLabel 7338-YY experiment, WT only, four replicates of ZT0 and ZT12, with one GFP- sorting control per day
+autoscale group
+type bigWig
+allButtonPair on
+	
+	track 7338-YY-S4-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R1_WT_ZT0
+	longLabel R1_WT_ZT0
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.EXP.R1.bw
+	
+	track 7338-YY-S7-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R2_WT_ZT0
+	longLabel R2_WT_ZT0
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.EXP.R2.bw
+	
+	track 7338-YY-S10-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R3_WT_ZT0
+	longLabel R3_WT_ZT0
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.EXP.R3.bw
+	
+	track 7338-YY-S13-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R4_WT_ZT0
+	longLabel R4_WT_ZT0
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.EXP.R4.bw
+	
+	track 7338-YY-S5-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R1_WT_ZT12
+	longLabel R1_WT_ZT12
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.EXP.R1.bw
+	
+	track 7338-YY-S8-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R2_WT_ZT12
+	longLabel R2_WT_ZT12
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.EXP.R2.bw
+	
+	track 7338-YY-S11-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R3_WT_ZT12
+	longLabel R3_WT_ZT12
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.EXP.R3.bw
+	
+	track 7338-YY-S14-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R4_WT_ZT12
+	longLabel R4_WT_ZT12
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.EXP.R4.bw
+	
+	track 7338-YY-S6-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R1_CTR_ZT0
+	longLabel R1_CTR_ZT0
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.CTR.R1.bw
+	
+	track 7338-YY-S9-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R2_CTR_ZT12
+	longLabel R2_CTR_ZT12
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R2.bw
+	
+	track 7338-YY-S12-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R3_CTR_ZT0
+	longLabel R3_CTR_ZT0
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.CTR.R3.bw
+	
+	track 7338-YY-S15-bw
+	parent 7338-YY-ATACseq-WT-Dec2022
+	shortLabel R4_CTR_ZT12
+	longLabel R4_CTR_ZT12
+	autoscale group
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R4.bw
+
 track 6795-YY-ATACseq-WT-Oct2022
 compositeTrack on
 shortLabel 6795-YY-WT-Oct2022
