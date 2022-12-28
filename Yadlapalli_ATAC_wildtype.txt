@@ -6,6 +6,37 @@ email yeyu@umich.edu
 
 genome dm6
 
+track GSE32613_BED
+compositeTrack on
+shortLabel Rosbash-GSE32613
+longLabel BED tracks from Rosbash ChIP-CHIP dataset
+type bigBed
+visibility full
+	
+	track GSM808499
+	parent GSE32613_BED
+	shortLabel CLK-ZT14-2REP
+	longLabel CLK-ZT14-2REP
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE32613/GSM808499_CLK-2REP-ZT14.bb
+	
+	track GSM808511
+	parent GSE32613_BED
+	shortLabel POL-ZT14-2REP
+	longLabel POL-ZT14-2REP
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE32613/GSM808511_POL-2REP-ZT14.bb
+	
+	track GSM808515
+	parent GSE32613_BED
+	shortLabel GMRhid-ZT14-2REP
+	longLabel GMRhid-ZT14-2REP
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE32613/GSM808515_GMR-2REP-ZT14.bb
+
 track 7338-YY-ATACseq-WT-ZT0-Dec2022
 shortLabel 7338-YY-WT-ZT0
 longLabel 7338-YY experiment WT ZT0
