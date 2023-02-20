@@ -171,3 +171,75 @@ container multiWig
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R4.bw
+
+track 7756-YY-ATACseq-WT-CT24-Jan2023
+shortLabel 7756-YY-WT-CT24
+longLabel 7756-YY experiment WT CT24
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 7756-YY-S2-bw
+	parent 7756-YY-ATACseq-WT-CT24-Jan2023
+	shortLabel R1_WT_CT24
+	longLabel R1_WT_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT24.EXP.R1.bw
+	
+	track 7756-YY-S5-bw
+	parent 7756-YY-ATACseq-WT-CT24-Jan2023
+	shortLabel R2_WT_CT24
+	longLabel R2_WT_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT24.EXP.R2.bw
+	
+	track 7756-YY-S7-bw
+	parent 7756-YY-ATACseq-WT-CT24-Jan2023
+	shortLabel R3_WT_CT24
+	longLabel R3_WT_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT24.EXP.R3.bw
+
+track 7756-YY-ATACseq-WT-CT36-Jan2023
+shortLabel 7756-YY-WT-CT36
+longLabel 7756-YY experiment WT CT36
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 7756-YY-S3-bw
+	parent 7756-YY-ATACseq-WT-CT36-Jan2023
+	shortLabel R1_WT_CT36
+	longLabel R1_WT_CT36
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R1.bw
+	
+	track 7756-YY-S6-bw
+	parent 7756-YY-ATACseq-WT-CT36-Jan2023
+	shortLabel R2_WT_CT36
+	longLabel R2_WT_CT36
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R2.bw
+	
+	track 7756-YY-S8-bw
+	parent 7756-YY-ATACseq-WT-CT36-Jan2023
+	shortLabel R3_WT_CT36
+	longLabel R3_WT_CT36
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R3.bw
