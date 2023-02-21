@@ -1,0 +1,131 @@
+hub Yadlapalli Motifs
+shortLabel Motifs-Yadlapalli
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan, containing genome-wide motif sites identified by HOMER. Maintained by Ye Yuan
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track 7338-YY-ZT0HIGH-TOP3
+compositeTrack on
+shortLabel ATACseq-WT-ZT0
+longLabel Genome-wide sites for top 3 enriched motifs in ZT0HIGH peaks.
+type bigBed
+visibility full
+	
+	track ZT0HIGH-VPbox
+	parent 7338-YY-ZT0HIGH-TOP3
+	shortLabel VPbox
+	longLabel VPbox TTATGYAATN
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.VPbox.TTATGYAATN.bb
+	
+	track ZT0HIGH-QKR58E1
+	parent 7338-YY-ZT0HIGH-TOP3
+	shortLabel Qkr58E-1
+	longLabel Qkr58E-1 GCATAATAATGA
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.QKR58E1.GCATAATAATGA.bb
+	
+	track ZT0HIGH-YAP3
+	parent 7338-YY-ZT0HIGH-TOP3
+	shortLabel YAP3
+	longLabel YAP3 CACATTACGT
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.YAP3.CACATTACGT.bb
+
+track 7338-YY-ZT12HIGH-TOP3
+compositeTrack on
+shortLabel ATACseq-WT-ZT12
+longLabel Genome-wide sites for top 3 enriched motifs in ZT12HIGH peaks.
+type bigBed
+visibility full
+	
+	track ZT12HIGH-ARNT
+	parent 7338-YY-ZT12HIGH-TOP3
+	shortLabel ARNT-EBOX
+	longLabel ARNT-EBOX CACGTGYH
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.ARNT.CACGTGYH.bb
+	
+	track ZT12HIGH-AEF1
+	parent 7338-YY-ZT12HIGH-TOP3
+	shortLabel AEF1/UNKNOWN
+	longLabel Potentially AEF1 TGCCGTTG
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.AEF1.TGCCGTTG.bb
+	
+	track ZT12HIGH-NRG1
+	parent 7338-YY-ZT12HIGH-TOP3
+	shortLabel NRG1/UNKNOWN
+	longLabel Potentially NRG1 CGGGACCC
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.NRG1.CGGGACCC.bb
+
+track 7756-YY-CT24HIGH-TOP3
+compositeTrack on
+shortLabel ATACseq-WT-CT24-YY7756
+longLabel Genome-wide sites for top 3 enriched motifs in CT24HIGH peaks. From 7756-YY sequencing data.
+type bigBed
+visibility full
+	
+	track CT24HIGH-SOX2
+	parent 7756-YY-CT24HIGH-TOP3
+	shortLabel SOX2
+	longLabel SOX2 WGACAATG
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.SOX2.WGACAATG.bb
+	
+	track CT24HIGH-ZFX
+	parent 7756-YY-CT24HIGH-TOP3
+	shortLabel ZFX/UNKNOWN-LIKELY
+	longLabel Probably not ZFX YTDAGMCT
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.ZFX.YTDAGMCT.bb
+	
+	track CT24HIGH-PCBP2
+	parent 7756-YY-CT24HIGH-TOP3
+	shortLabel PCBP2/UNKNOWN
+	longLabel Probably PCBP2 GGGAMWGAGS
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.PCBP2.GGGAMWGAGS.bb
+
+track 7756-YY-CT36HIGH-TOP3
+compositeTrack on
+shortLabel ATACseq-WT-CT36-YY7756
+longLabel Genome-wide sites for top 3 enriched motifs in CT36HIGH peaks. From 7756-YY sequencing data.
+type bigBed
+visibility full
+	
+	track CT36HIGH-CLOCK
+	parent 7756-YY-CT36HIGH-TOP3
+	shortLabel CLOCK
+	longLabel CLOCK GHCACGTG
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.CLOCK.GHCACGTG.bb
+	
+	track CT36HIGH-ZFP691
+	parent 7756-YY-CT36HIGH-TOP3
+	shortLabel ZFP691/UNKNOWN
+	longLabel Probably ZFP691 TGGAGTCC
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.ZFP691.TGGAGTCC.bb
+	
+	track CT36HIGH-IGF2BP3
+	parent 7756-YY-CT36HIGH-TOP3
+	shortLabel IGF2BP3/UNKNOWN
+	longLabel Probably IGF2BP3 AWATGTATGT
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.IGF2BP3.AWATGTATGT.bb
