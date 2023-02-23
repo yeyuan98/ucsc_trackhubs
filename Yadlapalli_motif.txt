@@ -11,13 +11,15 @@ compositeTrack on
 shortLabel ATACseq-WT-ZT0
 longLabel Genome-wide sites for top 3 enriched motifs in ZT0HIGH peaks.
 type bigBed
-visibility full
+visibility dense
+filter.score 0
+filterByRange.score on
 	
 	track ZT0HIGH-VPbox
 	parent 7338-YY-ZT0HIGH-TOP3
 	shortLabel VPbox
 	longLabel VPbox TTATGYAATN
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.VPbox.TTATGYAATN.bb
 	
@@ -25,7 +27,7 @@ visibility full
 	parent 7338-YY-ZT0HIGH-TOP3
 	shortLabel Qkr58E-1
 	longLabel Qkr58E-1 GCATAATAATGA
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.QKR58E1.GCATAATAATGA.bb
 	
@@ -33,7 +35,7 @@ visibility full
 	parent 7338-YY-ZT0HIGH-TOP3
 	shortLabel YAP3
 	longLabel YAP3 CACATTACGT
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.YAP3.CACATTACGT.bb
 
@@ -42,13 +44,15 @@ compositeTrack on
 shortLabel ATACseq-WT-ZT12
 longLabel Genome-wide sites for top 3 enriched motifs in ZT12HIGH peaks.
 type bigBed
-visibility full
+visibility dense
+filter.score 0
+filterByRange.score on
 	
 	track ZT12HIGH-ARNT
 	parent 7338-YY-ZT12HIGH-TOP3
 	shortLabel ARNT-EBOX
 	longLabel ARNT-EBOX CACGTGYH
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.ARNT.CACGTGYH.bb
 	
@@ -56,7 +60,7 @@ visibility full
 	parent 7338-YY-ZT12HIGH-TOP3
 	shortLabel AEF1/UNKNOWN
 	longLabel Potentially AEF1 TGCCGTTG
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.AEF1.TGCCGTTG.bb
 	
@@ -64,7 +68,7 @@ visibility full
 	parent 7338-YY-ZT12HIGH-TOP3
 	shortLabel NRG1/UNKNOWN
 	longLabel Potentially NRG1 CGGGACCC
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.NRG1.CGGGACCC.bb
 
@@ -73,13 +77,15 @@ compositeTrack on
 shortLabel ATACseq-WT-CT24-YY7756
 longLabel Genome-wide sites for top 3 enriched motifs in CT24HIGH peaks. From 7756-YY sequencing data.
 type bigBed
-visibility full
+visibility dense
+filter.score 0
+filterByRange.score on
 	
 	track CT24HIGH-SOX2
 	parent 7756-YY-CT24HIGH-TOP3
 	shortLabel SOX2
 	longLabel SOX2 WGACAATG
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.SOX2.WGACAATG.bb
 	
@@ -87,7 +93,7 @@ visibility full
 	parent 7756-YY-CT24HIGH-TOP3
 	shortLabel ZFX/UNKNOWN-LIKELY
 	longLabel Probably not ZFX YTDAGMCT
-	visibility full
+	visibility hide
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.ZFX.YTDAGMCT.bb
 	
@@ -95,7 +101,7 @@ visibility full
 	parent 7756-YY-CT24HIGH-TOP3
 	shortLabel PCBP2/UNKNOWN
 	longLabel Probably PCBP2 GGGAMWGAGS
-	visibility full
+	visibility hide
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.PCBP2.GGGAMWGAGS.bb
 
@@ -104,13 +110,15 @@ compositeTrack on
 shortLabel ATACseq-WT-CT36-YY7756
 longLabel Genome-wide sites for top 3 enriched motifs in CT36HIGH peaks. From 7756-YY sequencing data.
 type bigBed
-visibility full
+visibility dense
+filter.score 0
+filterByRange.score on
 	
 	track CT36HIGH-CLOCK
 	parent 7756-YY-CT36HIGH-TOP3
 	shortLabel CLOCK
 	longLabel CLOCK GHCACGTG
-	visibility full
+	visibility dense
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.CLOCK.GHCACGTG.bb
 	
@@ -118,7 +126,7 @@ visibility full
 	parent 7756-YY-CT36HIGH-TOP3
 	shortLabel ZFP691/UNKNOWN
 	longLabel Probably ZFP691 TGGAGTCC
-	visibility full
+	visibility hide
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.ZFP691.TGGAGTCC.bb
 	
@@ -126,6 +134,6 @@ visibility full
 	parent 7756-YY-CT36HIGH-TOP3
 	shortLabel IGF2BP3/UNKNOWN
 	longLabel Probably IGF2BP3 AWATGTATGT
-	visibility full
+	visibility hide
 	type bigBed
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.IGF2BP3.AWATGTATGT.bb
