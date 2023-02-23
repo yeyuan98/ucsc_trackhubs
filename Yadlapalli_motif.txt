@@ -64,8 +64,10 @@ track CT24HIGH-SOX2
 shortLabel SOX2
 longLabel SOX2 WGACAATG
 visibility dense
-filter.score 0
+filter.score 8:20
 filterByRange.score on
+filterLimits.score 0:10
+filterLabel.score Logodds filter range
 type bigBed
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.SOX2.WGACAATG.bb
 	
