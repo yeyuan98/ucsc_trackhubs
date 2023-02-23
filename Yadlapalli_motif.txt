@@ -10,108 +10,106 @@ track ZT0HIGH-VPbox
 shortLabel VPbox
 longLabel VPbox TTATGYAATN
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 7
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.VPbox.TTATGYAATN.bb
 	
 track ZT0HIGH-QKR58E1
 shortLabel Qkr58E-1
 longLabel Qkr58E-1 GCATAATAATGA
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 8
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.QKR58E1.GCATAATAATGA.bb
 	
 track ZT0HIGH-YAP3
 shortLabel YAP3
 longLabel YAP3 CACATTACGT
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 10
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT0HIGH.YAP3.CACATTACGT.bb
 	
 track ZT12HIGH-ARNT
 shortLabel ARNT-EBOX
 longLabel ARNT-EBOX CACGTGYH
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 8
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.ARNT.CACGTGYH.bb
 	
 track ZT12HIGH-AEF1
 shortLabel AEF1/UNKNOWN
 longLabel Potentially AEF1 TGCCGTTG
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 7
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.AEF1.TGCCGTTG.bb
 
 track ZT12HIGH-NRG1
 shortLabel NRG1/UNKNOWN
 longLabel Potentially NRG1 CGGGACCC
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 7
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7338-YY/ZT12HIGH.NRG1.CGGGACCC.bb
 
 track CT24HIGH-SOX2
 shortLabel SOX2
 longLabel SOX2 WGACAATG
 visibility dense
-filter.score 8:20
-filterByRange.score on
-filterLimits.score 0:10
-filterLabel.score Logodds filter range
-type bigBed
+filter.score 8
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.SOX2.WGACAATG.bb
 	
 track CT24HIGH-ZFX
 shortLabel ZFX/UNKNOWN-LIKELY
 longLabel Probably not ZFX YTDAGMCT
 visibility hide
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 4
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.ZFX.YTDAGMCT.bb
 
 track CT24HIGH-PCBP2
 shortLabel PCBP2/UNKNOWN
 longLabel Probably PCBP2 GGGAMWGAGS
 visibility hide
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 6
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.PCBP2.GGGAMWGAGS.bb
 	
 track CT36HIGH-CLOCK
 shortLabel CLOCK
 longLabel CLOCK GHCACGTG
 visibility dense
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 8
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.CLOCK.GHCACGTG.bb
 
 track CT36HIGH-ZFP691
 shortLabel ZFP691/UNKNOWN
 longLabel Probably ZFP691 TGGAGTCC
 visibility hide
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 7
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.ZFP691.TGGAGTCC.bb
 
 track CT36HIGH-IGF2BP3
 shortLabel IGF2BP3/UNKNOWN
 longLabel Probably IGF2BP3 AWATGTATGT
 visibility hide
-filter.score 0
-filterByRange.score on
-type bigBed
+filter.score 6
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
 bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT36HIGH.IGF2BP3.AWATGTATGT.bb
