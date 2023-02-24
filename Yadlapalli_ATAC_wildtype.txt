@@ -221,7 +221,7 @@ container multiWig
 	parent 7756-YY-ATACseq-WT-CT36-Jan2023
 	shortLabel R1_WT_CT36
 	longLabel R1_WT_CT36
-	color 255,128,0
+	color 0,255,128
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R1.bw
@@ -230,7 +230,7 @@ container multiWig
 	parent 7756-YY-ATACseq-WT-CT36-Jan2023
 	shortLabel R2_WT_CT36
 	longLabel R2_WT_CT36
-	color 255,128,0
+	color 0,255,128
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R2.bw
@@ -239,7 +239,7 @@ container multiWig
 	parent 7756-YY-ATACseq-WT-CT36-Jan2023
 	shortLabel R3_WT_CT36
 	longLabel R3_WT_CT36
-	color 255,128,0
+	color 0,255,128
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R3.bw
