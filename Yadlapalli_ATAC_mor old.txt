@@ -86,3 +86,57 @@ container multiWig
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT14.CTR.R2.bw
+
+track 6591-YY-ATACseq-morKD-WT-CT2-controls
+shortLabel 6591-YY-morKD-WT-CT2-controls
+longLabel 6591-YY experiment morKD WT GFP+ controls CT2
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 6591-YY-S9-bw
+	parent 6591-YY-ATACseq-morKD-WT-CT2-controls
+	shortLabel R1_WT_CT2
+	longLabel R1_WT_CT2
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/WT.CT2.EXP.R1.bw
+	
+	track 6591-YY-S10-bw
+	parent 6591-YY-ATACseq-morKD-WT-CT2-controls
+	shortLabel R2_CTR_CT14
+	longLabel R2_CTR_CT14
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/WT.CT2.EXP.R2.bw
+	
+track 6591-YY-ATACseq-morKD-WT-CT14-controls
+shortLabel 6591-YY-morKD-WT-CT14-controls
+longLabel 6591-YY experiment morKD WT GFP+ controls CT14
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 6591-YY-S11-bw
+	parent 6591-YY-ATACseq-morKD-WT-CT14-controls
+	shortLabel R1_WT_CT14
+	longLabel R1_WT_CT14
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/WT.CT14.EXP.R1.bw
+	
+	track 6591-YY-S12-bw
+	parent 6591-YY-ATACseq-morKD-WT-CT14-controls
+	shortLabel R2_CTR_CT14
+	longLabel R2_CTR_CT14
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/WT.CT14.EXP.R2.bw
