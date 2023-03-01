@@ -1,0 +1,88 @@
+hub Yadlapalli ATACseq mor old data
+shortLabel ATACseq mor old data
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan. Maintained by Ye Yuan. This is old ATAC data for morRNAi (6591-YY).
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track 6591-YY-ATACseq-morKD-CT2
+shortLabel 6591-YY-morKD-CT2
+longLabel 6591-YY experiment morKD CT2
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 6591-YY-S1-bw
+	parent 6591-YY-ATACseq-morKD-CT2
+	shortLabel R1_morKD_CT2
+	longLabel R1_morKD_CT2
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT2.EXP.R1.bw
+	
+	track 6591-YY-S2-bw
+	parent 6591-YY-ATACseq-morKD-CT2
+	shortLabel R2_morKD_CT2
+	longLabel R2_morKD_CT2
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT2.EXP.R2.bw
+
+track 6591-YY-ATACseq-morKD-CT14
+shortLabel 6591-YY-morKD-CT14
+longLabel 6591-YY experiment morKD CT14
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 6591-YY-S3-bw
+	parent 6591-YY-ATACseq-morKD-CT14
+	shortLabel R1_morKD_CT14
+	longLabel R1_morKD_CT14
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT14.EXP.R1.bw
+	
+	track 6591-YY-S4-bw
+	parent 6591-YY-ATACseq-morKD-CT14
+	shortLabel R2_morKD_CT14
+	longLabel R2_morKD_CT14
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT14.EXP.R2.bw
+
+track 6591-YY-ATACseq-morKD-controls
+shortLabel 6591-YY-morKD-controls
+longLabel 6591-YY experiment morKD GFP- controls
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 6591-YY-S5-bw
+	parent 6591-YY-ATACseq-morKD-controls
+	shortLabel R1_CTR_CT14
+	longLabel R1_CTR_CT14
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT14.CTR.R1.bw
+	
+	track 6591-YY-S6-bw
+	parent 6591-YY-ATACseq-morKD-controls
+	shortLabel R2_CTR_CT14
+	longLabel R2_CTR_CT14
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/6591-YY/RNAi.CT14.CTR.R2.bw
