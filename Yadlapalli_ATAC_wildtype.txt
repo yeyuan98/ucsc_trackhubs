@@ -243,3 +243,58 @@ container multiWig
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7756-YY-Jan2023/WT.CT36.EXP.R3.bw
+
+track 7338-YY-ATACseq-CTR-ZT0-Dec2022
+shortLabel 7338-YY-CTR-ZT0
+longLabel 7338-YY experiment controls, only showing ZT0.
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 7338-YY-S6-2-bw
+	parent 7338-YY-ATACseq-CTR-ZT0-Dec2022
+	shortLabel R1_CTR_ZT0_ONLY
+	longLabel R1_CTR_ZT0_ONLY
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.CTR.R1.bw
+	
+	track 7338-YY-S12-2-bw
+	parent 7338-YY-ATACseq-CTR-ZT0-Dec2022
+	shortLabel R3_CTR_ZT0_ONLY
+	longLabel R3_CTR_ZT0_ONLY
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.CTR.R3.bw
+
+
+track 7338-YY-ATACseq-CTR-ZT12-Dec2022
+shortLabel 7338-YY-CTR-ZT12
+longLabel 7338-YY experiment controls, only showing ZT12.
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track 7338-YY-S9-2-bw
+	parent 7338-YY-ATACseq-CTR-ZT12-Dec2022
+	shortLabel R2_CTR_ZT12_ONLY
+	longLabel R2_CTR_ZT12_ONLY
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R2.bw
+	
+	track 7338-YY-S15-2-bw
+	parent 7338-YY-ATACseq-CTR-ZT12-Dec2022
+	shortLabel R4_CTR_ZT12_ONLY
+	longLabel R4_CTR_ZT12_ONLY
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R4.bw
