@@ -257,7 +257,7 @@ container multiWig
 	parent 7338-YY-ATACseq-CTR-ZT0-Dec2022
 	shortLabel R1_CTR_ZT0_ONLY
 	longLabel R1_CTR_ZT0_ONLY
-	color 0,128,255
+	color 255,128,0
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.CTR.R1.bw
@@ -266,7 +266,7 @@ container multiWig
 	parent 7338-YY-ATACseq-CTR-ZT0-Dec2022
 	shortLabel R3_CTR_ZT0_ONLY
 	longLabel R3_CTR_ZT0_ONLY
-	color 0,128,255
+	color 255,128,0
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT0.CTR.R3.bw
@@ -285,7 +285,7 @@ container multiWig
 	parent 7338-YY-ATACseq-CTR-ZT12-Dec2022
 	shortLabel R2_CTR_ZT12_ONLY
 	longLabel R2_CTR_ZT12_ONLY
-	color 0,128,255
+	color 0,255,128
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R2.bw
@@ -294,7 +294,7 @@ container multiWig
 	parent 7338-YY-ATACseq-CTR-ZT12-Dec2022
 	shortLabel R4_CTR_ZT12_ONLY
 	longLabel R4_CTR_ZT12_ONLY
-	color 0,128,255
+	color 0,255,128
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R4.bw
