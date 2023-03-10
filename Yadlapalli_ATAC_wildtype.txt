@@ -298,3 +298,139 @@ container multiWig
 	visibility full
 	type bigWig
 	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/7338-YY-Dec2022/bw/WT.ZT12.CTR.R4.bw
+
+
+track YY-ATACseq-PER01-CT24-7756-7859
+shortLabel YY-PER01-CT24
+longLabel per01 CT24 results from 7756-YY and 7859-YY
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track PER01-CT24-R1-bw
+	parent YY-ATACseq-PER01-CT24-7756-7859
+	shortLabel R1_PER01_CT24
+	longLabel R1_PER01_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT24.EXP.R1.bw
+	
+	track PER01-CT24-R2-bw
+	parent YY-ATACseq-PER01-CT24-7756-7859
+	shortLabel R2_PER01_CT24
+	longLabel R2_PER01_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT24.EXP.R2.bw
+	
+	track PER01-CT24-R3-bw
+	parent YY-ATACseq-PER01-CT24-7756-7859
+	shortLabel R3_PER01_CT24
+	longLabel R3_PER01_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT24.EXP.R3.bw
+	
+	track PER01-CT24-R4-bw
+	parent YY-ATACseq-PER01-CT24-7756-7859
+	shortLabel R4_PER01_CT24
+	longLabel R4_PER01_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT24.EXP.R4.bw
+
+track YY-ATACseq-PER01-CT36-7756-7859
+shortLabel YY-PER01-CT36
+longLabel per01 CT36 results from 7756-YY and 7859-YY
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track PER01-CT36-R1-bw
+	parent YY-ATACseq-PER01-CT36-7756-7859
+	shortLabel R1_PER01_CT36
+	longLabel R1_PER01_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT36.EXP.R1.bw
+	
+	track PER01-CT36-R2-bw
+	parent YY-ATACseq-PER01-CT36-7756-7859
+	shortLabel R2_PER01_CT36
+	longLabel R2_PER01_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT36.EXP.R2.bw
+	
+	track PER01-CT36-R3-bw
+	parent YY-ATACseq-PER01-CT36-7756-7859
+	shortLabel R3_PER01_CT36
+	longLabel R3_PER01_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT36.EXP.R3.bw
+	
+	track PER01-CT36-R4-bw
+	parent YY-ATACseq-PER01-CT36-7756-7859
+	shortLabel R4_PER01_CT36
+	longLabel R4_PER01_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT36.EXP.R4.bw
+	
+track YY-ATACseq-PER01-CTR-7756-7859
+shortLabel YY-PER01-CTR
+longLabel per01 GFP- control results from 7756-YY and 7859-YY
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track PER01-CTR-CT36-R1-bw
+	parent YY-ATACseq-PER01-CTR-7756-7859
+	shortLabel R1_PER01_CTR_CT36
+	longLabel R1_PER01_CTR_CT36
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT36.CTR.R1.bw
+	
+	track PER01-CTR-CT24-R2-bw
+	parent YY-ATACseq-PER01-CTR-7756-7859
+	shortLabel R2_PER01_CTR_CT24
+	longLabel R2_PER01_CTR_CT24
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT24.CTR.R2.bw
+	
+	track PER01-CTR-CT24-R3-bw
+	parent YY-ATACseq-PER01-CTR-7756-7859
+	shortLabel R3_PER01_CTR_CT24
+	longLabel R3_PER01_CTR_CT24
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT24.CTR.R3.bw
+	
+	track PER01-CTR-CT36-R4-bw
+	parent YY-ATACseq-PER01-CTR-7756-7859
+	shortLabel R4_PER01_CTR_CT36
+	longLabel R4_PER01_CTR_CT36
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/per01-7756-7859/PER01.CT36.CTR.R4.bw
