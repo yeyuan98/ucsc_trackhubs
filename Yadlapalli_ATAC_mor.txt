@@ -1,0 +1,133 @@
+hub Yadlapalli ATACseq mor data
+shortLabel ATACseq mor data
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan. Maintained by Ye Yuan.
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track morKD-CT24
+shortLabel morKD-CT24
+longLabel morKD CT24 from two sequencing runs
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track morKD-CT24-REP1-bw
+	parent morKD-CT24
+	shortLabel R1_morKD_CT24
+	longLabel R1_morKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT24.EXP.R1.bw
+	
+	track morKD-CT24-REP2-bw
+	parent morKD-CT24
+	shortLabel R2_morKD_CT24
+	longLabel R2_morKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT24.EXP.R2.bw
+	
+	track morKD-CT24-REP3-bw
+	parent morKD-CT24
+	shortLabel R3_morKD_CT24
+	longLabel R3_morKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT24.EXP.R3.bw
+	
+	track morKD-CT24-REP4-bw
+	parent morKD-CT24
+	shortLabel R4_morKD_CT24
+	longLabel R4_morKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT24.EXP.R4.bw
+
+track morKD-CT36
+shortLabel morKD-CT36
+longLabel morKD CT36 from two sequencing runs
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track morKD-CT36-REP1-bw
+	parent morKD-CT36
+	shortLabel R1_morKD_CT36
+	longLabel R1_morKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT36.EXP.R1.bw
+	
+	track morKD-CT36-REP2-bw
+	parent morKD-CT36
+	shortLabel R2_morKD_CT36
+	longLabel R2_morKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT36.EXP.R2.bw
+	
+	track morKD-CT36-REP3-bw
+	parent morKD-CT36
+	shortLabel R3_morKD_CT36
+	longLabel R3_morKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT36.EXP.R3.bw
+	
+	track morKD-CT36-REP4-bw
+	parent morKD-CT36
+	shortLabel R4_morKD_CT36
+	longLabel R4_morKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT36.EXP.R4.bw
+	
+track morKD-CTR
+shortLabel morKD-CTR
+longLabel morKD control from two sequencing runs
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track CTR-CT24-REP1-bw
+	parent morKD-CTR
+	shortLabel R1_CTR_CT24
+	longLabel R1_CTR_CT24
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT24.CTR.R1.bw
+	
+	track CTR-CT24-REP3-bw
+	parent morKD-CTR
+	shortLabel R3_CTR_CT24
+	longLabel R3_CTR_CT24
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT24.CTR.R3.bw
+	
+	track CTR-CT36-REP1-bw
+	parent morKD-CTR
+	shortLabel R1_CTR_CT36
+	longLabel R1_CTR_CT36
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/morKD/MORKD.CT36.CTR.R1.bw
