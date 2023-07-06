@@ -1,0 +1,146 @@
+hub Yadlapalli ATACseq pcm data
+shortLabel ATACseq pcm data
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan. Maintained by Ye Yuan.
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track pcmKD-CT24
+shortLabel pcmKD-CT24
+longLabel pcmKD CT24 sequencing runs
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track pcmKD-CT24-REP1-bw
+	parent pcmKD-CT24
+	shortLabel R1_pcmKD_CT24
+	longLabel R1_pcmKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT24.EXP.R1.bw
+	
+	track pcmKD-CT24-REP2-bw
+	parent pcmKD-CT24
+	shortLabel R2_pcmKD_CT24
+	longLabel R2_pcmKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT24.EXP.R2.bw
+	
+	track pcmKD-CT24-REP3-bw
+	parent pcmKD-CT24
+	shortLabel R3_pcmKD_CT24
+	longLabel R3_pcmKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT24.EXP.R3.bw
+	
+	track pcmKD-CT24-REP4-bw
+	parent pcmKD-CT24
+	shortLabel R4_pcmKD_CT24
+	longLabel R4_pcmKD_CT24
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT24.EXP.R4.bw
+	
+
+
+track pcmKD-CT36
+shortLabel pcmKD-CT36
+longLabel pcmKD CT36 sequencing runs
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track pcmKD-CT36-REP1-bw
+	parent pcmKD-CT36
+	shortLabel R1_pcmKD_CT36
+	longLabel R1_pcmKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.EXP.R1.bw
+	
+	track pcmKD-CT36-REP2-bw
+	parent pcmKD-CT36
+	shortLabel R2_pcmKD_CT36
+	longLabel R2_pcmKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.EXP.R2.bw
+	
+	track pcmKD-CT36-REP3-bw
+	parent pcmKD-CT36
+	shortLabel R3_pcmKD_CT36
+	longLabel R3_pcmKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.EXP.R3.bw
+	
+	track pcmKD-CT36-REP4-bw
+	parent pcmKD-CT36
+	shortLabel R4_pcmKD_CT36
+	longLabel R4_pcmKD_CT36
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.EXP.R4.bw
+	
+
+	
+track pcmKD-CTR
+shortLabel pcmKD-CTR
+longLabel pcmKD control sequencing runs
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track CTR-CT24-REP1-bw
+	parent pcmKD-CTR
+	shortLabel R1_CTR_CT24
+	longLabel R1_CTR_CT24
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT24.CTR.R1.bw
+	
+	track CTR-CT36-REP1-bw
+	parent pcmKD-CTR
+	shortLabel R1_CTR_CT36
+	longLabel R1_CTR_CT36
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.CTR.R1.bw
+	
+	track CTR-CT36-REP2-bw
+	parent pcmKD-CTR
+	shortLabel R2_CTR_CT36
+	longLabel R2_CTR_CT36
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.CTR.R2.bw
+	
+	track CTR-CT36-REP3-bw
+	parent pcmKD-CTR
+	shortLabel R3_CTR_CT36
+	longLabel R3_CTR_CT36
+	color 0,128,255
+	visibility full
+	type bigWig
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/8409-YY/PCMKD.CT36.CTR.R3.bw
