@@ -1,0 +1,128 @@
+hub Yadlapalli NascentSeq Reanalysis
+shortLabel NascentSeq
+longLabel Reanalysis of GSE37232 NascentSeq of whole fly head. Maintained by Ye Yuan.
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track AS_NascentSeq
+compositeTrack on
+shortLabel rMATS-IRFinder
+longLabel BED tracks of detected AS events (rMATS) and intron retention ratios (IRFinder-S)
+type bigBed
+visibility full
+	
+	track rMATS-detected
+	parent AS_NascentSeq
+	shortLabel rMATS-detected
+	longLabel Detected AS events in NascentSeq or polyA
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE37232/rMATS/detected_events.bb
+	
+	track rMATS-differential
+	parent AS_NascentSeq
+	shortLabel rMATS-differential
+	longLabel Differential AS events comparing NascentSeq to polyA (FDR<0.1)
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE37232/rMATS/differential_events.bb
+	
+	track IRFinderMedian-nascent
+	parent AS_NascentSeq
+	shortLabel IRFinderMedian-nascent
+	longLabel Median retention ratio of NascentSeq by IRFinder-S
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE37232/IRFinder-min_sample=1_type=full/median_nascent.bb
+	
+	track IRFinderMedian-polyA
+	parent AS_NascentSeq
+	shortLabel IRFinderMedian-polyA
+	longLabel Median retention ratio of polyA-seq by IRFinder-S
+	visibility full
+	type bigBed
+	bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/GSE37232/IRFinder-min_sample=1_type=full/median_polyA.bb
+
+track NascentSeq-ZT2toZT10
+shortLabel NascentSeq-ZT2toZT10
+longLabel Coverage track of NascentSeq samples (ZT2 to ZT10)
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track NascentSeq-ZT2toZT10_R1-bw
+	parent NascentSeq-ZT2toZT10
+	shortLabel R1_NascentSeq_ZT2to10
+	longLabel R1_NascentSeq_ZT2to10
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://figshare.com/ndownloader/files/50581806?private_link=5f42442e664fb5590264
+	
+	track NascentSeq-ZT2toZT10_R2-bw
+	parent NascentSeq-ZT2toZT10
+	shortLabel R2_NascentSeq_ZT2to10
+	longLabel R2_NascentSeq_ZT2to10
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://figshare.com/ndownloader/files/50581821?private_link=ffaea575b10cb70e4a8d
+
+
+track NascentSeq-ZT14toZT22
+shortLabel NascentSeq-ZT14toZT22
+longLabel Coverage track of NascentSeq samples (ZT14 to ZT22)
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track NascentSeq-ZT14toZT22_R1-bw
+	parent NascentSeq-ZT14toZT22
+	shortLabel R1_NascentSeq_ZT2to10
+	longLabel R1_NascentSeq_ZT2to10
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://figshare.com/ndownloader/files/50581818?private_link=f7abac89a93e8034dc8b
+	
+	track NascentSeq-ZT14toZT22_R2-bw
+	parent NascentSeq-ZT14toZT22
+	shortLabel R2_NascentSeq_ZT14toZT22
+	longLabel R2_NascentSeq_ZT14toZT22
+	color 255,128,0
+	visibility full
+	type bigWig
+	bigDataUrl https://figshare.com/ndownloader/files/50581827?private_link=98dc5fb3e68484cc3773
+
+track polyASeq
+shortLabel polyASeq
+longLabel Coverage track of control polyadenylated samples
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+container multiWig
+	
+	track polyASeq-ZT0toZT8-bw
+	parent polyASeq
+	shortLabel polyASeq_ZT0to8
+	longLabel polyASeq_ZT0to8
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://figshare.com/ndownloader/files/50581773?private_link=369246d3e21102283575
+	
+	track polyASeq-ZT12toZT20-bw
+	parent polyASeq
+	shortLabel polyASeq_ZT12to20
+	longLabel polyASeq_ZT12to20
+	color 0,255,128
+	visibility full
+	type bigWig
+	bigDataUrl https://figshare.com/ndownloader/files/50581779?private_link=806c699508056680de2a
